@@ -250,9 +250,6 @@ namespace SneakGameApp
             apple.xPos = 45;
             apple.yPos = 14;
 
-            Console.SetCursorPosition(1, 30);
-            Console.WriteLine("- " + AppDomain.CurrentDomain.BaseDirectory);
-
             threadMovement.Start();
             threadControl.Start();
             
