@@ -241,7 +241,6 @@ namespace SneakGameApp
                 ConsoleKeyInfo key = Console.ReadKey(true);
                 if (key.Key == ConsoleKey.UpArrow) { snakeDirection = 'u'; break; }
                 else if (key.Key == ConsoleKey.DownArrow) { snakeDirection = 'd'; break; }
-                else if (key.Key == ConsoleKey.LeftArrow) { snakeDirection = 'l'; break; }
                 else if (key.Key == ConsoleKey.RightArrow) { snakeDirection = 'r'; break; }
             }
             addBodyElement(10, 14, snakeDirection);
